@@ -1,0 +1,182 @@
+2025-03-12 10:07:59,549 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3086, 52, null, 2025-01-24 00:00:00, ATM Withdrawal 920373209582 Rs, null, 38374.78, Credit, null, Utilities, 2025-03-12 04:37:59.527978).       
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2025, 1, 24, 0, 0), 'description': 'ATM Withdrawal 920373209582 Rs', 'merchant_name': None, 'amount': 38374.78, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Utilities', 'created_at': datetime.datetime(2025, 3, 12, 4, 37, 59, 527978)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:07:59,645 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3087, 52, null, 2024-03-25 00:00:00, NEFT Transfer 806548952207 Rs, null, 17483.7, Credit, null, Transportation, 2025-03-12 04:37:59.643819).    
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 3, 25, 0, 0), 'description': 'NEFT Transfer 806548952207 Rs', 'merchant_name': None, 'amount': 17483.7, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 37, 59, 643819)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:07:59,746 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3088, 52, null, 2024-08-07 00:00:00, NEFT Transfer 873151244429 Rs, null, 642.45, Credit, null, Transportation, 2025-03-12 04:37:59.745648).     
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 8, 7, 0, 0), 'description': 'NEFT Transfer 873151244429 Rs', 'merchant_name': None, 'amount': 642.45, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 37, 59, 745648)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:07:59,839 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3089, 52, null, 2024-04-01 00:00:00, UPI Transfer 805434614292 Rs, null, 35163.98, Credit, null, Transportation, 2025-03-12 04:37:59.837192).    
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 4, 1, 0, 0), 'description': 'UPI Transfer 805434614292 Rs', 'merchant_name': None, 'amount': 35163.98, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 37, 59, 837192)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 0, Category: Utilities
+2025-03-12 10:07:59,922 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3090, 52, null, 2024-10-12 00:00:00, ATM Withdrawal 924113973436 Rs, null, 16755.74, Credit, null, Utilities, 2025-03-12 04:37:59.920601).       
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 10, 12, 0, 0), 'description': 'ATM Withdrawal 924113973436 Rs', 'merchant_name': None, 'amount': 16755.74, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Utilities', 'created_at': datetime.datetime(2025, 3, 12, 4, 37, 59, 920601)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 0, Category: Utilities
+2025-03-12 10:08:00,009 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3091, 52, null, 2024-09-21 00:00:00, ATM Withdrawal 281868799012 Rs, null, 29110.97, Credit, null, Utilities, 2025-03-12 04:38:00.007668).       
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 9, 21, 0, 0), 'description': 'ATM Withdrawal 281868799012 Rs', 'merchant_name': None, 'amount': 29110.97, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Utilities', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 0, 7668)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:00,093 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3092, 52, null, 2025-02-03 00:00:00, NEFT Transfer 503220612780 Rs, null, 4173.19, Credit, null, Transportation, 2025-03-12 04:38:00.091311).    
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2025, 2, 3, 0, 0), 'description': 'NEFT Transfer 503220612780 Rs', 'merchant_name': None, 'amount': 4173.19, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 0, 91311)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:00,179 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3093, 52, null, 2025-02-04 00:00:00, NEFT Transfer 302881035207 Rs, null, 23700.63, Credit, null, Transportation, 2025-03-12 04:38:00.177457).   
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2025, 2, 4, 0, 0), 'description': 'NEFT Transfer 302881035207 Rs', 'merchant_name': None, 'amount': 23700.63, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 0, 177457)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 23, Category: Tourism
+2025-03-12 10:08:00,265 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3094, 52, null, 2024-12-05 00:00:00, NEFT Transfer 418784467062 Rs, null, 48206.32, Credit, null, Tourism, 2025-03-12 04:38:00.263863).
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 12, 5, 0, 0), 'description': 'NEFT Transfer 418784467062 Rs', 'merchant_name': None, 'amount': 48206.32, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Tourism', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 0, 263863)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:00,369 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3095, 52, null, 2024-07-02 00:00:00, UPI Transfer 745539807398 Rs, null, 16210.86, Credit, null, Transportation, 2025-03-12 04:38:00.368576).    
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 7, 2, 0, 0), 'description': 'UPI Transfer 745539807398 Rs', 'merchant_name': None, 'amount': 16210.86, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 0, 368576)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:00,476 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3096, 52, null, 2024-11-27 00:00:00, UPI Transfer 483723854535 Rs, null, 42716.66, Credit, null, Transportation, 2025-03-12 04:38:00.475428).    
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 11, 27, 0, 0), 'description': 'UPI Transfer 483723854535 Rs', 'merchant_name': None, 'amount': 42716.66, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 0, 475428)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:00,576 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3097, 52, null, 2024-04-07 00:00:00, UPI Transfer 355660045092 Rs, null, 36219.18, Credit, null, Transportation, 2025-03-12 04:38:00.574932).    
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 4, 7, 0, 0), 'description': 'UPI Transfer 355660045092 Rs', 'merchant_name': None, 'amount': 36219.18, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 0, 574932)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 0, Category: Utilities
+2025-03-12 10:08:00,675 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3098, 52, null, 2024-07-16 00:00:00, ATM Withdrawal 939698201211 Rs, null, 33207.62, Credit, null, Utilities, 2025-03-12 04:38:00.673187).       
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 7, 16, 0, 0), 'description': 'ATM Withdrawal 939698201211 Rs', 'merchant_name': None, 'amount': 33207.62, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Utilities', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 0, 673187)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 0, Category: Utilities
+2025-03-12 10:08:00,769 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3099, 52, null, 2025-01-08 00:00:00, UPI Transfer 958543587163 Rs, null, 24768.78, Credit, null, Utilities, 2025-03-12 04:38:00.767205).
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2025, 1, 8, 0, 0), 'description': 'UPI Transfer 958543587163 Rs', 'merchant_name': None, 'amount': 24768.78, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Utilities', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 0, 767205)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:00,875 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3100, 52, null, 2025-02-05 00:00:00, NEFT Transfer 475415511110 Rs, null, 12894.52, Credit, null, Transportation, 2025-03-12 04:38:00.873038).   
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2025, 2, 5, 0, 0), 'description': 'NEFT Transfer 475415511110 Rs', 'merchant_name': None, 'amount': 12894.52, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 0, 873038)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 0, Category: Utilities
+2025-03-12 10:08:00,979 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3101, 52, null, 2025-02-12 00:00:00, ATM Withdrawal 350827327743 Rs, null, 38988.34, Credit, null, Utilities, 2025-03-12 04:38:00.977493).       
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2025, 2, 12, 0, 0), 'description': 'ATM Withdrawal 350827327743 Rs', 'merchant_name': None, 'amount': 38988.34, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Utilities', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 0, 977493)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:01,086 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3102, 52, null, 2025-01-20 00:00:00, UPI Transfer 601729526772 Rs, null, 19474.13, Credit, null, Transportation, 2025-03-12 04:38:01.084246).    
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2025, 1, 20, 0, 0), 'description': 'UPI Transfer 601729526772 Rs', 'merchant_name': None, 'amount': 19474.13, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 1, 84246)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:01,194 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3103, 52, null, 2024-11-22 00:00:00, NEFT Transfer 641654432080 Rs, null, 44049.94, Credit, null, Transportation, 2025-03-12 04:38:01.192577).   
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 11, 22, 0, 0), 'description': 'NEFT Transfer 641654432080 Rs', 'merchant_name': None, 'amount': 44049.94, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 1, 192577)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 0, Category: Utilities
+2025-03-12 10:08:01,295 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3104, 52, null, 2025-01-19 00:00:00, UPI Transfer 610089682711 Rs, null, 5079.51, Credit, null, Utilities, 2025-03-12 04:38:01.293248).
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2025, 1, 19, 0, 0), 'description': 'UPI Transfer 610089682711 Rs', 'merchant_name': None, 'amount': 5079.51, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Utilities', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 1, 293248)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:01,391 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3105, 52, null, 2024-07-10 00:00:00, UPI Transfer 386289304795 Rs, null, 284.26, Credit, null, Transportation, 2025-03-12 04:38:01.389203).      
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 7, 10, 0, 0), 'description': 'UPI Transfer 386289304795 Rs', 'merchant_name': None, 'amount': 284.26, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 1, 389203)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:01,501 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3106, 52, null, 2024-09-19 00:00:00, UPI Transfer 607132949988 Rs, null, 13732.98, Credit, null, Transportation, 2025-03-12 04:38:01.499631).    
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 9, 19, 0, 0), 'description': 'UPI Transfer 607132949988 Rs', 'merchant_name': None, 'amount': 13732.98, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 1, 499631)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:01,608 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3107, 52, null, 2025-02-03 00:00:00, UPI Transfer 439374013175 Rs, null, 22251.74, Credit, null, Transportation, 2025-03-12 04:38:01.606786).    
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2025, 2, 3, 0, 0), 'description': 'UPI Transfer 439374013175 Rs', 'merchant_name': None, 'amount': 22251.74, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 1, 606786)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:01,709 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3108, 52, null, 2024-05-14 00:00:00, UPI Transfer 735971282744 Rs, null, 24036.58, Credit, null, Transportation, 2025-03-12 04:38:01.708639).    
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 5, 14, 0, 0), 'description': 'UPI Transfer 735971282744 Rs', 'merchant_name': None, 'amount': 24036.58, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 1, 708639)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:01,807 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3109, 52, null, 2024-04-28 00:00:00, NEFT Transfer 380457251890 Rs, null, 49733.96, Credit, null, Transportation, 2025-03-12 04:38:01.805214).   
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 4, 28, 0, 0), 'description': 'NEFT Transfer 380457251890 Rs', 'merchant_name': None, 'amount': 49733.96, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 1, 805214)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 11, Category: Transportation
+2025-03-12 10:08:01,915 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3110, 52, null, 2024-12-01 00:00:00, NEFT Transfer 856949602588 Rs, null, 45354.25, Credit, null, Transportation, 2025-03-12 04:38:01.913467).   
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 12, 1, 0, 0), 'description': 'NEFT Transfer 856949602588 Rs', 'merchant_name': None, 'amount': 45354.25, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Transportation', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 1, 913467)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+🔍 Predicted index: 0, Category: Utilities
+2025-03-12 10:08:02,020 - ERROR - ❌ Error storing transaction: (psycopg2.errors.NotNullViolation) null value in column "user_id" of relation "transactions" violates not-null constraint
+DETAIL:  Failing row contains (3111, 52, null, 2024-07-02 00:00:00, ATM Withdrawal 642906350975 Rs, null, 26185.33, Credit, null, Utilities, 2025-03-12 04:38:02.018505).       
+
+[SQL: INSERT INTO transactions (statement_id, user_id, transaction_date, description, merchant_name, amount, transaction_type, balance_after_transaction, category, created_at) VALUES (%(statement_id)s, %(user_id)s, %(transaction_date)s, %(description)s, %(merchant_name)s, %(amount)s, %(transaction_type)s, %(balance_after_transaction)s, %(category)s, %(created_at)s) RETURNING transactions.id]
+[parameters: {'statement_id': 52, 'user_id': None, 'transaction_date': datetime.datetime(2024, 7, 2, 0, 0), 'description': 'ATM Withdrawal 642906350975 Rs', 'merchant_name': None, 'amount': 26185.33, 'transaction_type': 'Credit', 'balance_after_transaction': None, 'category': 'Utilities', 'created_at': datetime.datetime(2025, 3, 12, 4, 38, 2, 18505)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+INFO:     127.0.0.1:51872 - "POST /upload/ HTTP/1.1" 200 OK
